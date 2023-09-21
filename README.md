@@ -3,7 +3,7 @@
 👋 Welcome to my GitHub repository for the CVIP Web Development Internship! Here, you'll discover all the exciting projects and tasks I'm diving into during my internship journey.
 
 ## 📚 Table of Contents 📚
-- [🌟 Phase 1 Projects](#phase-1-projects)
+- [🌟 Phase 1 Projects](https://github.com/Ayyubiy90/CVIP-Web-Development-Intern/tree/main/Phase%201%20Projects)
 - [🌠 Phase 2 Projects](#phase-2-projects)
 - [🎉 Additional Projects](#additional-projects)
 - [🔐 License](#license)
