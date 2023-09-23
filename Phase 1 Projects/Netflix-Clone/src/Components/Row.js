@@ -8,7 +8,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
 
-  // A snippet of code which run based on a specific question
+  //Asnippet of code which runs based on a specific conditions
 
   useEffect(() => {
     async function fetchData() {
@@ -19,7 +19,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     fetchData();
   }, [fetchUrl]);
   // console.log(movies);
-  const baseurl = "https://image.tmbd.org/t/p/original/";
+  const baseurl = "https://image.tmdb.org/t/p/original/";
 
   const opts = {
     height: "390",
