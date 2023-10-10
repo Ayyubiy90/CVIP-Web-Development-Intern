@@ -1,0 +1,13 @@
+// Breakpoints
+$bp-narrow: "(min-width: 400px)";
+$bp-mid: "(min-width: 600px)";
+$bp-wide: "(min-width: 110px)";
+
+$body-color: #fff;
+$text-color-bold: #223344;
+$text-color-dark: mix($text-color-bold, #000 80%);
+$text-color: mix($text-color-bold, $body-color, 80%);
+$text-color-light: mix($text-color-bold, $body-color, 60%);
+$text-color-super-light: mix($text-color-bold, $body-color, 30%);
+$accent-color: #fff;
+$accent-color-contrast: #04c;
