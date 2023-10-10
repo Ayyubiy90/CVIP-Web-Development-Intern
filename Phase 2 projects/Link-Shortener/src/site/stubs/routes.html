@@ -1,0 +1,33 @@
+<!--
+    We'll submit our data via javascript and nevr sue this form, but the existence of this form will cause Netlify to generate an end point that we can post data to.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routes</title>
+</head>
+
+<body class="home">
+
+    <form action="done" name="routes" netlify>
+        <p>
+            <input type="url" name="destination">
+        </p>
+        <p>
+            <input type="text" name="code">
+        </p>
+        <p>
+            <input type="datetime" name="expires">
+        </p>
+        <p>
+            <button type="submit" class="btn">Get a short link</button>
+        </p>
+    </form>
+
+</body>
+
+</html>
